@@ -35,7 +35,7 @@ menu "Bootloader config"
 
     choice BOOTLOADER_LOG_LEVEL
         bool "Bootloader log verbosity"
-        default BOOTLOADER_LOG_LEVEL_INFO
+        default BOOTLOADER_LOG_LEVEL_NONE
         help
             Specify how much output to see in bootloader logs.
 
